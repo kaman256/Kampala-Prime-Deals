@@ -182,3 +182,70 @@
           <p class="text-zinc-600">Sourced from trusted markets</p>
         </div>
         <div class="text-center">
+          <div class="w-16 h-16 mx-auto bg-amber-100 rounded-2xl flex items-center justify-center text-4xl mb-4">📱</div>
+          <h3 class="font-bold text-xl mb-2">Easy WhatsApp Orders</h3>
+          <p class="text-zinc-600">Reply in minutes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 bg-zinc-100">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">What Kampala Customers Say</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-3xl">
+          <p class="italic">"Earbuds arrived same day! Perfect quality and price. Best online shop in Kampala!"</p>
+          <div class="mt-6 flex items-center gap-3">
+            <div class="w-12 h-12 bg-zinc-300 rounded-full"></div>
+            <div><p class="font-semibold">Sarah Nakitto</p><p class="text-xs text-zinc-500">Ntinda</p></div>
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl">
+          <p class="italic">"Got my power bank and speaker in 2 days. Very professional!"</p>
+          <div class="mt-6 flex items-center gap-3">
+            <div class="w-12 h-12 bg-zinc-300 rounded-full"></div>
+            <div><p class="font-semibold">Michael Okello</p><p class="text-xs text-zinc-500">Makerere</p></div>
+          </div>
+        </div>
+        <div class="bg-white p-8 rounded-3xl">
+          <p class="italic">"The handbag is exactly as shown. My wife loves it!"</p>
+          <div class="mt-6 flex items-center gap-3">
+            <div class="w-12 h-12 bg-zinc-300 rounded-full"></div>
+            <div><p class="font-semibold">Josephine Namubiru</p><p class="text-xs text-zinc-500">Kabalagala</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer - MEDIUM WhatsApp Number -->
+  <footer class="bg-zinc-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="flex justify-center items-center gap-3 mb-6">
+        <i class="fa-solid fa-truck text-4xl text-amber-500"></i>
+        <h1 class="text-3xl font-bold">Kampala Prime Deals</h1>
+      </div>
+      <p class="text-zinc-400 mb-8">Premium items • Sourced locally • Delivered fast in Kampala</p>
+      <a href="https://wa.me/256747749029" target="_blank" class="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 px-6 py-3 rounded-3xl text-lg font-semibold">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        +256 747 749 029
+      </a>
+      <p class="mt-12 text-zinc-500 text-sm">© 2026 Kampala Prime Deals • All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp - MEDIUM size -->
+  <a href="https://wa.me/256747749029?text=Hi%20Kampala%20Prime%20Deals%2C%20I%20saw%20your%20website%20and%20want%20to%20order%20premium%20items!" target="_blank" class="fixed bottom-6 right-6 bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all z-50">
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+  </a>
+
+  <script>
+    function orderNow(product) {
+      const message = encodeURIComponent(`Hi Kampala Prime Deals! I would like to order the ${product}. Premium items delivered in Kampala. Please send me more details.`);
+      window.open(`https://wa.me/256747749029?text=${message}`, '_blank');
+    }
+  </script>
+</body>
+</html>
